@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one{
+  border: 4px dotted red;
+  height: 400px;
+  width: 80%;
+  /* overflow: hidden; */
+  /* overflow: visible; */
+  /* overflow: scroll; */
+  /* overflow-y: scroll; */
+  /* overflow: auto; */
+
+}
+
+img{
+  /* float: left; */
+  float: right;
+}
+
+nav{
+  background-color: antiquewhite;
+}
+li{
+  list-style-type: none;
+  background-color: blue;
+  color: white;
+  float: left;
+  width: 25%;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+}
+/* descendant */
+/* #Qudus p{
+  color: red;
+} */
+
+/* child */
+#Qudus>p{
+  color: red;
+}
+
+/* adjacent */
+/* #Qudus+h1{
+  color: red;
+} */
+
+/* ~ */
+#Qudus~h1{
+  color: red;
+}
+
+img:hover{
+  opacity: 0.9;
+}
+
+.box{
+  border: 2px solid blue;
+  width: 100px;
+  height: 60px;
+  box-sizing: border-box;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
